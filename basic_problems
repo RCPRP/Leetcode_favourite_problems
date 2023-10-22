@@ -1,0 +1,9 @@
+#1. Palindrome 
+n = 123321
+original_n = n
+palin_sum=0
+while n >0 :
+    palin_sum = palin_sum*10 + (n%10)
+    n=n//10
+if palin_sum == original_n:
+   print("yes palin")
